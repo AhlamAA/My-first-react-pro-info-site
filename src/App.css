@@ -1,38 +1,90 @@
 .App {
   text-align: center;
+  margin: 0;
+  background: #fcfdf8;
+  font-family: 'Inter';
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.girl{
+  margin: 0;
+  size: 75%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  color:#999e98;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 45px;
+  margin: 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.roll,h4{
+  color:#eabaa4;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 10px ;
+  text-shadow: 0px 4px 4px #EFCAB7;
+}
+a{
+  text-decoration: none;
+  color:black;
+  font-size: 19px;
+  font-style: italic;
+}
+a:hover{
+  text-decoration: underline;
+}
+.buttons{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  column-gap: 15px;
 }
-
-.App-link {
-  color: #61dafb;
+button{
+  color: #f4f6ee;
+  background-color: #999e98;
+  padding: 9px 13px 9px 11px;
+  box-shadow: 0px 1px 2px #999e98;
+  border-radius: 10px;
+  border-style: none;
+  width: 12rem;
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Inter';
 }
+button:hover{
+  box-shadow: 2px 3px 4px #999e98;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  width: 65%;
+  margin: auto; 
+}
+.social-media{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin: 10px;
+}
+.social-media > img{
+  width: 25px;
+  height: 25px;
+}
+.mail-icon{
+  width: 20px;
+  height: 19px;
+  margin-right: 3px;
+  margin-bottom: -3px;
+}
+.linkedin-icon{
+  width: 17px;
+  height: 16px;
+  margin-right: 4px;
+  margin-bottom: -1px;
 }
